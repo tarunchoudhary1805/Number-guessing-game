@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>/number Guessing Game</title>
+    <link rel="stylesheet" href="numberguess.css">
+</head>
+<body>
+    <h1>Number Guessing Game by <q>Tarun Choudhary</q></h1>
+    <p>I Have Selected a random number between 1 and 100 . <br> See if you can guess it in 10 turns or fewer. I'll tell you if your guess was too high or too low.</p>
+   <div class="form">
+    <label for="guessField">Enter a guess:</label>
+    <input type="text" placeholder="eg. 85" id="guessField" class="guessField">
+    <input type="submit" value="Submit Guess" class="guessSubmit">
+    
+</div>
+<div class="resultParas">
+    <p class="guesses"></p>
+    <p class="lastResult"></p>
+    <p class="lowOrHi"></p>
+</div>
+    <script src="numberguess.js"></script>
+</body>
+</html>

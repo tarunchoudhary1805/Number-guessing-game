@@ -1,0 +1,22 @@
+html{
+    font-family: sans-serif;
+}
+body{
+    width: 50%;
+    background-color: teal;
+    /* max-width: 600px; */
+    min-width: 480px;
+    margin: auto auto;
+}
+input{
+    outline: none;
+    border: none;
+    color: blue;
+    background-color:white;
+
+}
+
+.lastResult{
+    color: white;
+    padding: 3px;
+}

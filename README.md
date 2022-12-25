@@ -1,2 +1,2 @@
-# Number-guessing-game
+## Number-guessing-game
 Created a number guessing game
